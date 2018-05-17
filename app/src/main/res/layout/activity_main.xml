@@ -10,14 +10,11 @@
         android:id="@+id/start"
         android:layout_gravity="center"
         android:text="Start"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Enter roll number here"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/text"
+        android:hint="Enter number"
         android:inputType="number"/>
     <Button
         android:layout_width="wrap_content"
